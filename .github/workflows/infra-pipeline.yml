@@ -21,6 +21,9 @@ jobs:
       - name: GitLeaks Scan
         uses: gitleaks/gitleaks-action@v2
 
+       - name: tflint- action
+         uses: chnsz/tflint-action@master
+
       - name: Checkov GitHub Action
         uses: bridgecrewio/checkov-action@v12
         with:
